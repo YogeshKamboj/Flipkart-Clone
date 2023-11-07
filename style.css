@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nav-bar {
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo {
+    height: 38px;
+    width: 130px;
+    margin-right: 13px;
+}
+.logo {
+    background-image: url(logo.svg);
+    background-size: cover;
+    height: 32px;
+    width: 133px;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+.search-input {
+    height: 40px;
+    width: 95%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: #F0F5FF;
+    font-size: large;
+    font-weight: lighter;
+    border: none;
+}
+.search-logo {
+    font-size: 1.5rem;
+    background-color: #F0F5FF;
+    color: #717478;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    padding: 8.9px;
+    padding-left: 15px;
+}
+.store {
+    display: flex;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.store p {
+    margin-left: 8px;
+    margin-right: 15px;
+}
+/* panel1 */
+.panel1 {
+    height: 144px;
+    background-color: #F1F2F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-box{
+    height: 90%;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    justify-content:center ;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    margin-left: 18px;
+    margin-right: 18px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+.box p {
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+    font-weight: 550;
+    align-items: center;
+}
+.content {
+    height: 65px;
+    width: 65px;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+    background-size: contain;
+}
+/* page-mid */
+.page-mid {
+    background-color:#F1F2F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 100%;
+}   
+.mid-img {
+    width: 98%;
+    height: 90%;
+    background-image: url(hero-1.jpg);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.page-mid2 {
+    background-color:#F1F2F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 100%;
+}
+.mid-img2 {
+    width: 98%;
+    height: 90%;
+    background-image: url(page-top-mid.jpg);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.mid-page {
+    background-color:#F1F2F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+.mid-box {
+    width: 98%;
+    height: 90%;
+    background-color: white;
+}
+.mid-box h2{
+    padding-top: 30px;
+    padding-left: 15px;
+    font-weight: 550;
+}
+.internal-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box01 {
+    border: 1px solid rgb(213, 213, 213);
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+    height: 245px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.boximg {
+    height: 180px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.boximg:hover {
+    transform: scale(1.1);
+}
+.box01 p {
+    margin-top: 10px;
+    font-size: large;
+}
+.box01 a {
+    margin-top: 5px;
+    font-weight: 550;
+}
+.three1 {
+    background-color: #f1f2f4;
+    height: 265px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threebox {
+    height: 100%;
+    width: 98%;
+    background-color: #f1f2f4;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgthree {
+    height: 265px;
+    width: 33%;
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.imgthree:hover {
+    transform: scale(1.02);
+}
+/* footpanel */
+.footpanel2 {
+    background-color: #212121;
+    color: white;
+    height: 250px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 50px;
+}
+ul a {
+    display: block;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    
+}
+ul p {
+    font-size: 0.85rem;
+    font-weight: 200;
+    color: #dddd;
+}
+.footpanel3 {
+    background-color: #212121;
+    height: 65px;
+    border-top: 0.1px solid #dddd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: small
+}
+.visa {
+    height: 20px;
+    width: 380px;
+    background-size: contain;
+}
